@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BLYU - AI Automations, Web Development & Web Applications. Transform your business with cutting-edge technology.">
+    <meta name="keywords" content="AI Automation, Web Development, Web Applications, BLYU">
+    <title>BLYU - AI Automation & Web Solutions</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Three.js for Vanta.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    
+    <!-- Vanta.js Effects -->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background Containers -->
+    <div id="vanta-hero" class="vanta-container active"></div>
+    <div id="vanta-services" class="vanta-container"></div>
+    <div id="vanta-projects" class="vanta-container"></div>
+    <div id="vanta-testimonials" class="vanta-container"></div>
+    <div id="vanta-contact" class="vanta-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">B</div>
+                    <span class="logo-text">BLYU</span>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-vanta="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    Next-Gen Technology Solutions
+                </div>
+                
+                <h1 class="hero-title">
+                    Transform Your Business with
+                    <span class="gradient-text">AI & Automation</span>
+                </h1>
+                
+                <p class="hero-description">
+                    We build intelligent systems, stunning websites, and powerful web applications that scale with your business. Let's bring your vision to life.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg">Start Your Project</a>
+                    <a href="#projects" class="btn btn-outline btn-lg">View Our Work</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="services" data-vanta="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What We Do</span>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">
+                    Comprehensive technology solutions designed to transform your business and drive growth
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Automations</h3>
+                    <p class="service-description">
+                        Transform your business operations with intelligent automation solutions that work 24/7. From customer service bots to complex workflow automation, we build AI systems that understand your business and scale effortlessly.
+                    </p>
+                    <ul class="service-features">
+                        <li>🤖 Custom AI Chatbots & Virtual Assistants</li>
+                        <li>⚡ Workflow & Process Automation</li>
+                        <li>🧠 Machine Learning Model Development</li>
+                        <li>📊 Predictive Analytics & Forecasting</li>
+                        <li>🔄 CRM & Email Automation</li>
+                        <li>💬 Natural Language Processing</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span class="tech-badge">OpenAI</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Website Development</h3>
+                    <p class="service-description">
+                        Create stunning, high-performance websites that captivate your audience and convert visitors into customers. We build responsive, SEO-optimized websites using the latest technologies and design trends.
+                    </p>
+                    <ul class="service-features">
+                        <li>🎨 Custom UI/UX Design</li>
+                        <li>📱 Fully Responsive & Mobile-First</li>
+                        <li>🚀 Lightning-Fast Performance</li>
+                        <li>🔍 SEO & Analytics Integration</li>
+                        <li>🛒 E-commerce Solutions</li>
+                        <li>✏️ Content Management Systems</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Next.js</span>
+                        <span class="tech-badge">Tailwind</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2"/>
+                            <rect x="9" y="9" width="6" height="6"/>
+                            <line x1="9" y1="1" x2="9" y2="4"/>
+                            <line x1="15" y1="1" x2="15" y2="4"/>
+                            <line x1="9" y1="20" x2="9" y2="23"/>
+                            <line x1="15" y1="20" x2="15" y2="23"/>
+                            <line x1="20" y1="9" x2="23" y2="9"/>
+                            <line x1="20" y1="14" x2="23" y2="14"/>
+                            <line x1="1" y1="9" x2="4" y2="9"/>
+                            <line x1="1" y1="14" x2="4" y2="14"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Applications</h3>
+                    <p class="service-description">
+                        Build powerful, scalable web applications that handle complex business logic and grow with your organization. From SaaS platforms to internal tools, we create solutions that drive efficiency and innovation.
+                    </p>
+                    <ul class="service-features">
+                        <li>💼 Custom SaaS Development</li>
+                        <li>☁️ Cloud-Native Architecture</li>
+                        <li>🔗 API Development & Integration</li>
+                        <li>📈 Real-time Data Processing</li>
+                        <li>🔒 Enterprise Security Standards</li>
+                        <li>📊 Admin Dashboards & Analytics</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">AWS</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Why Choose Us -->
+            <div class="why-choose-us">
+                <h3 class="why-title">Why Choose BLYU?</h3>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-icon">⚡</div>
+                        <h4>Lightning Fast Delivery</h4>
+                        <p>We deliver projects 2x faster than industry average without compromising quality</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🎯</div>
+                        <h4>Results-Driven Approach</h4>
+                        <p>Every solution is designed to achieve measurable business outcomes</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🛡️</div>
+                        <h4>Enterprise-Grade Security</h4>
+                        <p>Bank-level security and compliance built into every solution</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">💡</div>
+                        <h4>Cutting-Edge Technology</h4>
+                        <p>We use the latest tools and frameworks to future-proof your investment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects" data-vanta="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Real results from real projects - see how we've helped businesses transform digitally
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-category">AI Automation</span>
+                            <button class="project-view-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce AI Assistant</h3>
+                        <p class="project-description">
+                            Built an intelligent chatbot that handles 10,000+ customer queries monthly, reducing support costs by 60% while increasing customer satisfaction to 95%. The AI learns from every interaction to provide better responses.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">250%</span>
+                                <span class="stat-label">↑ Engagement</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">60%</span>
+                                <span class="stat-label">↓ Costs</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-category">Website</span>
+                            <button class="project-view-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SaaS Landing Platform</h3>
+                        <p class="project-description">
+                            Created a conversion-optimized landing page with stunning animations and performance optimization. Achieved 99/100 Google Lighthouse score and 180% increase in sign-ups within first month of launch.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">180%</span>
+                                <span class="stat-label">↑ Sign-ups</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">0.8s</span>
+                                <span class="stat-label">Load Time</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Design</span>
+                            <span class="tag">SEO</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-category">Web App</span>
+                            <button class="project-view-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Management Suite</h3>
+                        <p class="project-description">
+                            Developed a comprehensive project tracking system with real-time collaboration features. Now serving 1000+ users across 50+ companies with 99.9% uptime and sub-second response times.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">1000+</span>
+                                <span class="stat-label">Active Users</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">99.9%</span>
+                                <span class="stat-label">Uptime</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Full Stack</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">WebSocket</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-category">AI + Web App</span>
+                            <button class="project-view-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Built an AI-powered analytics platform that provides real-time insights and predictive analysis. Helps businesses make data-driven decisions with 95% prediction accuracy and beautiful visualizations.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">95%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">Real-time</span>
+                                <span class="stat-label">Insights</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">ML</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Dashboard</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-category">E-commerce</span>
+                            <button class="project-view-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-vendor Marketplace</h3>
+                        <p class="project-description">
+                            Created a scalable marketplace platform handling 50,000+ products and processing 1000+ orders daily. Features include vendor management, payment gateway integration, and AI-powered recommendations.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">50K+</span>
+                                <span class="stat-label">Products</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">1K+</span>
+                                <span class="stat-label">Daily Orders</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Stripe</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-category">Automation</span>
+                            <button class="project-view-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HR Automation System</h3>
+                        <p class="project-description">
+                            Automated entire HR workflow including recruitment, onboarding, payroll, and performance tracking. Reduced HR workload by 70% and improved employee satisfaction by 85% with streamlined processes.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">70%</span>
+                                <span class="stat-label">↓ Workload</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">85%</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Automation</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Integration</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA in Projects -->
+            <div class="project-cta">
+                <h3>Ready to Start Your Project?</h3>
+                <p>Let's discuss how we can bring your vision to life</p>
+                <a href="#contact" class="btn btn-primary btn-lg">Get Started Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials" data-vanta="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What Clients Say</span>
+                <h2 class="section-title">Client Success Stories</h2>
+                <p class="section-description">
+                    Real feedback from real businesses we've helped transform digitally
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "BLYU transformed our outdated workflow into an intelligent automation system. We've seen a 70% reduction in manual work and our team can now focus on strategic initiatives. The AI they built learns and improves daily. Absolutely incredible value!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-title">CEO, TechFlow Inc.</div>
+                            <div class="author-company">$50M+ ARR SaaS Company</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "The website BLYU built for us is simply stunning. Not only does it look amazing, but our conversion rate increased by 200% in just two months. Page load time is under 1 second. Best investment we've made this year - ROI was positive within 30 days!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-title">Founder, GrowthLabs</div>
+                            <div class="author-company">Digital Marketing Agency</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Working with BLYU was an absolute pleasure. They understood our complex requirements and delivered a web application that exceeded all expectations. Professional, responsive, and highly skilled. The platform now handles 10,000+ daily active users flawlessly!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">E</div>
+                        <div class="author-info">
+                            <div class="author-name">Emily Rodriguez</div>
+                            <div class="author-title">CTO, DataSync Solutions</div>
+                            <div class="author-company">Enterprise Software Company</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "The AI automation BLYU built saved us $200K annually in operational costs. Customer satisfaction scores went from 72% to 94%. Their team is proactive, innovative, and truly cares about delivering results. Can't recommend them enough!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div class="author-info">
+                            <div class="author-name">Rajesh Kumar</div>
+                            <div class="author-title">VP Operations, RetailHub</div>
+                            <div class="author-company">E-commerce Platform</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "BLYU delivered our web app 3 weeks ahead of schedule and under budget. The quality is exceptional - clean code, beautiful design, and rock-solid performance. They've become our go-to technology partner for all digital projects."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <div class="author-name">Amanda Foster</div>
+                            <div class="author-title">Product Director, FinanceFlow</div>
+                            <div class="author-company">FinTech Startup</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        "Their attention to detail is remarkable. From initial consultation to final deployment, BLYU maintained clear communication and delivered exactly what we needed. The automation system they built processes 50,000+ transactions daily without a hitch!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">D</div>
+                        <div class="author-info">
+                            <div class="author-name">David Park</div>
+                            <div class="author-title">CEO, LogisticsPro</div>
+                            <div class="author-company">Supply Chain Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Trust Indicators -->
+            <div class="trust-section">
+                <h3 class="trust-title">Trusted by Industry Leaders</h3>
+                <div class="trust-stats">
+                    <div class="trust-stat">
+                        <div class="trust-number">50+</div>
+                        <div class="trust-label">Happy Clients</div>
+                    </div>
+                    <div class="trust-stat">
+                        <div class="trust-number">100%</div>
+                        <div class="trust-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="trust-stat">
+                        <div class="trust-number">95%</div>
+                        <div class="trust-label">Repeat Clients</div>
+                    </div>
+                    <div class="trust-stat">
+                        <div class="trust-number">24/7</div>
+                        <div class="trust-label">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact" data-vanta="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Build Something Amazing</h2>
+                <p class="section-description">
+                    Ready to transform your business? Let's discuss how we can help you achieve your goals
+                </p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="/cdn-cgi/l/email-protection#8cefe3e2f8edeff8cceee0f5f9a2f8e9efe4"><span class="__cf_email__" data-cfemail="f4979b9a80959780b496988d81da8091979c">[email&#160;protected]</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/company/blyu" target="_blank">linkedin.com/company/blyu</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-box">
+                        <h3>Start Your Project Today</h3>
+                        <p>Let's transform your vision into reality with cutting-edge technology.</p>
+                        <a href="/cdn-cgi/l/email-protection#eb8884859f8a889fab8987929ec59f8e8883" class="btn btn-primary">Send Us a Message</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (234) 567-890">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="ai-automation">AI Automation</option>
+                                <option value="website">Website Development</option>
+                                <option value="web-app">Web Application</option>
+                                <option value="consulting">Consulting</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">B</div>
+                        <span class="logo-text">BLYU</span>
+                    </div>
+                    <p class="footer-description">
+                        Transforming businesses through AI automation, stunning websites, and powerful web applications.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/company/blyu" target="_blank" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">AI Automations</a></li>
+                            <li><a href="#services">Website Development</a></li>
+                            <li><a href="#services">Web Applications</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="/cdn-cgi/l/email-protection#ddbeb2b3a9bcbea99dbfb1a4a8f3a9b8beb5"><span class="__cf_email__" data-cfemail="5d3e3233293c3e291d3f3124287329383e35">[email&#160;protected]</span></a></li>
+                            <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 BLYU. All rights reserved.</p>
+  
